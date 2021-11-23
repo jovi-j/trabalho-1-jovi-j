@@ -22,14 +22,14 @@ class Forca {
         int m_tentativas_restantes = 6; //<! tentativas restantes
    
     public:
-        /**
+       /**
          * Cria a classe Forca
          * O construtor pode ou não validar os arquivos de entrada, no entanto, mesmo com 
          * os arquivos inválidos o objeto deve ser construído. Para o caso de arquivos de palavras
          * ou scores inválidos, use o método eh_valido.
          * @param palavras o arquivo que contém as palavras
          * @param scores o nome do arquivo que contém os scores
-         * @see eh_valido
+         * @see eh_valido 
          */
         Forca( std::string palavras, std::string scores );
        
